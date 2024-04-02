@@ -9,7 +9,7 @@ on:
 jobs:
   commithistory:
     name: action1
-    runs-on: ubuntu- 18.04
+    runs-on: [ubuntu-latest]
     steps: 
       - name: abc
         id: checkc
