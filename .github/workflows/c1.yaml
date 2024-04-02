@@ -10,6 +10,7 @@ jobs:
   commithistory:
     name: action1
     runs-on: [ubuntu-latest]
+    shell: bash
     steps: 
       - name: abc
         id: checkc
