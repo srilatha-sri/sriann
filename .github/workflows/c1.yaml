@@ -9,9 +9,7 @@ on:
    types: [opened]
 
  
-
-
-jobs:
+ jobs:
   commithistory:
     name: action1
     runs-on: [ubuntu-latest]
